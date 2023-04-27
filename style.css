@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Impact, serif;
+}
+body {
+    width: 100%;
+  background-image: url("./images/beans.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media only screen and (max-width: 600px) {
+  body {
+    background-image: url("./images/beans.jpg");
+  }
+}
+
+.container {
+  background-color: burlywood;
+  height: 590px;
+  width: 440px;
+  position: relative;
+  left: 500px;
+  top: 35px;
+  bottom: 15px;
+}
+@media only screen and (max-width: 600px) {
+  .container {
+    position: relative;
+    left: 30px;
+    top: 5px;
+    bottom: 15px;
+    height:590 ;
+    background-color: burlywood;
+  }
+}
+.head {
+  justify-content: center;
+  text-align: center;
+}
+.head h1 {
+  font-size: 40px;
+}
+.head p {
+  padding-top: 6px;
+  font-size: 15px;
+  padding-bottom: 6px;
+  font-family: Helvetica, sans-serif;
+}
+hr {
+  margin-top: 5px;
+  width: 90%;
+  margin-left: 20px;
+  border: 2px solid brown;
+}
+
+.coffee {
+  justify-content: space-between;
+}
+.coffee h2 {
+  justify-content: center;
+  text-align: center;
+  padding-top: 18px;
+  font-size: 30px;
+}
+
+.image {
+  justify-content: center;
+  text-align: center;
+  padding-top: 18px;
+}
+.list {
+  display: flex;
+}
+.list ul li {
+  padding-top: 5px;
+  padding-left: 3px;
+  list-style-type: none;
+  margin-left: 5px;
+  font-family: Helvetica, sans-serif;
+  font-size: 15px;
+}
+
+.rightlist {
+  text-align: right;
+  margin-right: 5px;
+  padding-left: 278px;
+}
+.dessert h2 {
+  justify-content: center;
+  text-align: center;
+  padding-top: 18px;
+  font-size: 30px;
+}
+.dessert {
+  justify-content: space-between;
+}
+
+.para p {
+  font-family: Helvetica, sans-serif;
+  justify-content: center;
+  text-align: center;
+  text-decoration: underline;
+  font-size: 15px;
+  margin: 5px 0;
+}
+.rlist {
+  text-align: right;
+  margin-right: 5px;
+  padding-left: 301px;
+}
+
