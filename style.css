@@ -20,9 +20,9 @@ body {
   height: 590px;
   width: 440px;
   position: relative;
-  left: 500px;
-  top: 35px;
-  bottom: 15px;
+  left: 400px;
+  top: 20px;
+  bottom: 10px;
 }
 @media only screen and (max-width: 600px) {
   .container {
